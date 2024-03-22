@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nuevavista"
+    android:background="#00BCD4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respuestas"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="1:C"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="2:C"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="3:C"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="4:B"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="5:C"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="6:A"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="7:B"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="8:B"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Avista"
+            android:text="Anterior"
+            android:textSize="15sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
